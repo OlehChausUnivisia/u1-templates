@@ -6,6 +6,15 @@ See `CLAUDE.md` for architecture, conventions, and how the pieces fit together.
 
 ## Getting started
 
+Copy this template into a new project with [degit](https://github.com/Rich-Harris/degit) (pulls the files only, no git history):
+
+```bash
+npx degit OlehChausUnivisia/u1-templates/react my-app
+cd my-app
+```
+
+Then install and run:
+
 ```bash
 pnpm install
 cp .env.example .env   # fill in your own Entra ID app registration
